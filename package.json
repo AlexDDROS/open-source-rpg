@@ -8,7 +8,8 @@
     "start": "node src/server.js",
     "lint": "next lint",
     "heroku-postbuild": "npx prisma migrate deploy && next build"
-  },
+  "node": "4.1.1" 
+},
   "prisma": {
     "schema": "src/prisma/schema.prisma"
   },
